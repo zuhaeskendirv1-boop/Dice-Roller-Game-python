@@ -7,10 +7,10 @@ while True:
         print("This number is out of range. Exiting...")
         break
 
-    if int(player) < num:
+    if player < num:
         print("Guess higher!")
-    elif int(player) > num:
+    elif player > num:
         print("Guess lower!")
     else:
-        print("Conguratulations, You got it!")
+        print("Congratulations, You got it!")
         break
